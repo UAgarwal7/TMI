@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "testing Heroku"
+    return "testing Heroku 2"
