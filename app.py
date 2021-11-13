@@ -3,4 +3,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "testing 4"
+    x=4
+    return x
