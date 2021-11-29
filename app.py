@@ -9,3 +9,6 @@ def index():
 @app.route("/testing")
 def testing():
     return "Testing this out."
+
+if __name__ == "__main__":
+    app.run(debug=True)
