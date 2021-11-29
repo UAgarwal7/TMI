@@ -7,4 +7,4 @@ def home():
 
 @app.route("/testing")
 def testing():
-    return "Testing this out"
+    return "Testing this out."
